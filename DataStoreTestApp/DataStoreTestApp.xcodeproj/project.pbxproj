@@ -14,6 +14,7 @@
 		FDDA0D531D2F0B7F00A9390A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDDA0D511D2F0B7F00A9390A /* LaunchScreen.storyboard */; };
 		FDDA0D5B1D2F0C5100A9390A /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA0D5A1D2F0C5100A9390A /* Dog.swift */; };
 		FDDA0D5D1D2F0C6200A9390A /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA0D5C1D2F0C6200A9390A /* DataStore.swift */; };
+		FDDA0D611D2F39D500A9390A /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA0D601D2F39D500A9390A /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		FDDA0D541D2F0B7F00A9390A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDDA0D5A1D2F0C5100A9390A /* Dog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
 		FDDA0D5C1D2F0C6200A9390A /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		FDDA0D601D2F39D500A9390A /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				FDDA0D481D2F0B7F00A9390A /* AppDelegate.swift */,
+				FDDA0D621D2F39DB00A9390A /* Views */,
 				FDDA0D5E1D2F0C6F00A9390A /* Modals */,
 				FDDA0D5F1D2F0C7B00A9390A /* View Controllers */,
 				FDDA0D4C1D2F0B7F00A9390A /* Main.storyboard */,
@@ -84,6 +87,14 @@
 				FDDA0D4A1D2F0B7F00A9390A /* ViewController.swift */,
 			);
 			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		FDDA0D621D2F39DB00A9390A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FDDA0D601D2F39D500A9390A /* CollectionViewCell.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDDA0D611D2F39D500A9390A /* CollectionViewCell.swift in Sources */,
 				FDDA0D4B1D2F0B7F00A9390A /* ViewController.swift in Sources */,
 				FDDA0D5D1D2F0C6200A9390A /* DataStore.swift in Sources */,
 				FDDA0D491D2F0B7F00A9390A /* AppDelegate.swift in Sources */,
@@ -310,6 +322,7 @@
 				FDDA0D591D2F0B7F00A9390A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

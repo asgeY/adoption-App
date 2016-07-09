@@ -8,27 +8,32 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     
-    var adoptedDogsArray = [Dog]()
+    //var adoptedDogsArray = [Dog]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        if let d = DataStore.sharedInstance.dogAt(4){
-            self.adoptedDogsArray.append(d)
-        }
-        
-        if let d = DataStore.sharedInstance.dogAt(1){
-            self.adoptedDogsArray.append(d)
-        }
-        
-        if let d = DataStore.sharedInstance.dogAt(17){
-            self.adoptedDogsArray.append(d)
-        }
-        
-        print(self.adoptedDogsArray.count)
-        
+   
     }
+    
+    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        
+        return DataStore.sharedInstance.numberOfDogs() 
+    }
+    
+    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+        
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("Cell", forIndexPath: indexPath) as! CollectionViewCell
+        
+        let dogsTest = DataStore.sharedInstance.dogAt(indexPath.row)
+        
+        cell.dogImageView.image = UIImage(named: dogsTest!.imageName)
+        
+        
+        return cell
+    }
+    
+    
 }
 
