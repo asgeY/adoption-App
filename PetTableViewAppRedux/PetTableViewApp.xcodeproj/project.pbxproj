@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5ECA254E1D2EC22700F5135F /* CardStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECA254C1D2EC22700F5135F /* CardStack.swift */; };
 		5ECA254F1D2EC22700F5135F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECA254D1D2EC22700F5135F /* CardView.swift */; };
+		FDC07ECD1D33F13600443F8E /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC07ECC1D33F13600443F8E /* FourthViewController.swift */; };
 		FDDA0CBF1D2D9D6100A9390A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA0CBE1D2D9D6100A9390A /* AppDelegate.swift */; };
 		FDDA0CC11D2D9D6100A9390A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA0CC01D2D9D6100A9390A /* FirstViewController.swift */; };
 		FDDA0CC31D2D9D6100A9390A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA0CC21D2D9D6100A9390A /* SecondViewController.swift */; };
@@ -20,11 +21,13 @@
 		FDDA0D641D2F51DC00A9390A /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA0D631D2F51DC00A9390A /* ThirdViewController.swift */; };
 		FDDA0D661D2F552700A9390A /* DogCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA0D651D2F552700A9390A /* DogCollectionViewCell.swift */; };
 		FDE5C8761D2FFA660075361B /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE5C8751D2FFA660075361B /* DataStore.swift */; };
+		FDEFF4051D3415460058467F /* CustomMKPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEFF4041D3415460058467F /* CustomMKPointAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5ECA254C1D2EC22700F5135F /* CardStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardStack.swift; sourceTree = "<group>"; };
 		5ECA254D1D2EC22700F5135F /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		FDC07ECC1D33F13600443F8E /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		FDDA0CBB1D2D9D6100A9390A /* PetTableViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetTableViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDDA0CBE1D2D9D6100A9390A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDDA0CC01D2D9D6100A9390A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +41,7 @@
 		FDDA0D631D2F51DC00A9390A /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		FDDA0D651D2F552700A9390A /* DogCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogCollectionViewCell.swift; sourceTree = "<group>"; };
 		FDE5C8751D2FFA660075361B /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		FDEFF4041D3415460058467F /* CustomMKPointAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMKPointAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 				FDDA0CC01D2D9D6100A9390A /* FirstViewController.swift */,
 				FDDA0CC21D2D9D6100A9390A /* SecondViewController.swift */,
 				FDDA0D631D2F51DC00A9390A /* ThirdViewController.swift */,
+				FDC07ECC1D33F13600443F8E /* FourthViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -96,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				FDDA0CF21D2DA50200A9390A /* Dog.swift */,
+				FDEFF4041D3415460058467F /* CustomMKPointAnnotation.swift */,
 				FDE5C8751D2FFA660075361B /* DataStore.swift */,
 			);
 			name = Modal;
@@ -184,8 +190,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDEFF4051D3415460058467F /* CustomMKPointAnnotation.swift in Sources */,
 				5ECA254F1D2EC22700F5135F /* CardView.swift in Sources */,
 				FDDA0CC31D2D9D6100A9390A /* SecondViewController.swift in Sources */,
+				FDC07ECD1D33F13600443F8E /* FourthViewController.swift in Sources */,
 				FDDA0CBF1D2D9D6100A9390A /* AppDelegate.swift in Sources */,
 				FDE5C8761D2FFA660075361B /* DataStore.swift in Sources */,
 				5ECA254E1D2EC22700F5135F /* CardStack.swift in Sources */,
