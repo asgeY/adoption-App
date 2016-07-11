@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		5ECA254E1D2EC22700F5135F /* CardStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECA254C1D2EC22700F5135F /* CardStack.swift */; };
 		5ECA254F1D2EC22700F5135F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECA254D1D2EC22700F5135F /* CardView.swift */; };
-		FDBDFE701D3019EE0010E3F2 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBDFE6F1D3019EE0010E3F2 /* FourthViewController.swift */; };
 		FDDA0CBF1D2D9D6100A9390A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA0CBE1D2D9D6100A9390A /* AppDelegate.swift */; };
 		FDDA0CC11D2D9D6100A9390A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA0CC01D2D9D6100A9390A /* FirstViewController.swift */; };
 		FDDA0CC31D2D9D6100A9390A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA0CC21D2D9D6100A9390A /* SecondViewController.swift */; };
@@ -26,7 +25,6 @@
 /* Begin PBXFileReference section */
 		5ECA254C1D2EC22700F5135F /* CardStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardStack.swift; sourceTree = "<group>"; };
 		5ECA254D1D2EC22700F5135F /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
-		FDBDFE6F1D3019EE0010E3F2 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		FDDA0CBB1D2D9D6100A9390A /* PetTableViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetTableViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDDA0CBE1D2D9D6100A9390A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDDA0CC01D2D9D6100A9390A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -90,7 +88,6 @@
 				FDDA0CC01D2D9D6100A9390A /* FirstViewController.swift */,
 				FDDA0CC21D2D9D6100A9390A /* SecondViewController.swift */,
 				FDDA0D631D2F51DC00A9390A /* ThirdViewController.swift */,
-				FDBDFE6F1D3019EE0010E3F2 /* FourthViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -189,7 +186,6 @@
 			files = (
 				5ECA254F1D2EC22700F5135F /* CardView.swift in Sources */,
 				FDDA0CC31D2D9D6100A9390A /* SecondViewController.swift in Sources */,
-				FDBDFE701D3019EE0010E3F2 /* FourthViewController.swift in Sources */,
 				FDDA0CBF1D2D9D6100A9390A /* AppDelegate.swift in Sources */,
 				FDE5C8761D2FFA660075361B /* DataStore.swift in Sources */,
 				5ECA254E1D2EC22700F5135F /* CardStack.swift in Sources */,

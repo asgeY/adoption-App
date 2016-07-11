@@ -201,37 +201,6 @@
             </objects>
             <point key="canvasLocation" x="744" y="546"/>
         </scene>
-        <!--Map-->
-        <scene sceneID="Otw-XW-8JJ">
-            <objects>
-                <viewController id="oIZ-cu-OER" customClass="FourthViewController" customModule="PetTableViewApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="FIy-60-Wq8"/>
-                        <viewControllerLayoutGuide type="bottom" id="FRp-3r-0ol"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="YX7-fk-Mxb">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Map Controller" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l4o-io-Ar7">
-                                <rect key="frame" x="243" y="289" width="114" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="l4o-io-Ar7" firstAttribute="centerX" secondItem="YX7-fk-Mxb" secondAttribute="centerX" id="9EW-m0-Q47"/>
-                            <constraint firstItem="l4o-io-Ar7" firstAttribute="centerY" secondItem="YX7-fk-Mxb" secondAttribute="centerY" id="UGT-JZ-w6w"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Map" image="map" selectedImage="map" id="7HA-Mf-b1I"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="owG-h3-fKA" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="744" y="1205"/>
-        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
@@ -246,7 +215,6 @@
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="mPq-w2-dYi"/>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="pim-aa-Abu"/>
                         <segue destination="Kow-R3-FTv" kind="relationship" relationship="viewControllers" id="wsw-i6-hsq"/>
-                        <segue destination="oIZ-cu-OER" kind="relationship" relationship="viewControllers" id="iUr-h4-2wl"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
@@ -258,6 +226,5 @@
         <image name="bone" width="24" height="24"/>
         <image name="grid3" width="24" height="24"/>
         <image name="home" width="24" height="24"/>
-        <image name="map" width="24" height="24"/>
     </resources>
 </document>

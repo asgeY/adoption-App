@@ -15,11 +15,12 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
     
     var DogArray = [Dog]()
     
+    
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         
         self.tableView.reloadData()
-       
+        
     }
     
     //    MARK: Table view data source
